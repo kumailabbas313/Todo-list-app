@@ -1,0 +1,78 @@
+body {
+    
+    background-image: url('images/pexels-arnie-chou-1229042.jpg');
+    
+    background-size: cover; 
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+img{
+    display: block;
+    width: 100px;
+    height: 70px;
+    padding-left: 100px;
+    
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+button {
+    border: none;
+    border-radius: 13px;
+    color: #eaeaea;
+    background-color: rgba(12, 12, 240, 0.897);
+    padding: 8px 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    transition: transform 0.2s ease;
+}
+
+button:hover{
+    
+    transform: scale(0.9); 
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    background-color: #f4f4f4;
+    margin-top: 5px;
+    
+}
+
+li:hover {
+    background-color: #eaeaea;
+}
